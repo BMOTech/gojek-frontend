@@ -1,18 +1,18 @@
-## GOJEK FRONTEND
+# GOJEK FRONTEND
 
-#Project Framework (github)
+##Project Framework (github)
 https://github.com/angular/angular-seed
  
-#Technology
+##Technology
 	- AngularJS
 	- JSON
 	- NPM
  
-#Functionality
+##Functionality
 	- Send and Receive HTTP Post using JSON as a data
 	- Angular controller
  
-#How to Start (do command in OS terminal or IDE features)
+##How to Start (do command in OS terminal or IDE features)
 Nb : assumpsion user (developer) already install NodeJs and NPM on their PC
  
 	1. Install npm and bower dependencies
@@ -25,12 +25,12 @@ Nb : assumpsion user (developer) already install NodeJs and NPM on their PC
 	2. Run server testing
 		C:/gojek-frontend>npm start
                
-#URL Testing
+##URL Testing
 	use browser and open url
 		e.g http://localhost:8000/
                
  
-#Files Updated
+##Files Updated
 	New : 
 		gojek-frontend\app\register\*
 
@@ -38,9 +38,7 @@ Nb : assumpsion user (developer) already install NodeJs and NPM on their PC
 		gojek-frontend\app\app.js
 		gojek-frontend\app\index.html
 
-
-
-## References
+##References
 
 For more information on AngularJS please check out http://angularjs.org/
 
