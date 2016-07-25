@@ -1,0 +1,57 @@
+<section class="default_form" id="register">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8 col-center">
+                <div class="panel panel_reg">
+                    <div class="panel-heading text-center">
+                        <h2>Register</h2>
+                    </div>
+                    <div class="panel-body">
+                        <form name="registerForm" class="form-horizontal" ng-submit="doRegister()" method="POST">
+                            <fieldset>
+                                <div class="control-group">
+                                    <label class="control-label" for="fullname">Name</label>
+                                    <div class="controls">
+                                        <input type="text" id="fullname" name="fullname" ng-model="fullname" placeholder="" class="form-control input-lg">
+                                    </div>
+                                </div>
+
+                                <div class="control-group">
+                                    <label class="control-label" for="email">E-mail</label>
+                                    <div class="controls">
+                                        <input type="email" id="email" name="email" ng-model="email" placeholder="" class="form-control input-lg">
+                                    </div>
+                                </div>
+
+                                <div class="control-group">
+                                    <label class="control-label" for="phone">Phone</label>
+                                    <div class="controls">
+                                        <input type="text" id="phone" name="phone" ng-model="phone" placeholder="" class="form-control input-lg">
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label" for="occupation">Occupation</label>
+                                    <div class="controls">
+                                        <input type="text" id="occupation" name="occupation" ng-model="occupation" placeholder="" class="form-control input-lg">
+                                    </div>
+                                </div>
+
+
+                                <div class="control-group">
+                                    <!-- Button -->
+                                    <div class="controls" style="padding-top: 20px">
+                                        <button class="btn btn-primary btn-block">Daftar</button>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <p>{{responseNotif}}</p>
+                                </div>
+                            </fieldset>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

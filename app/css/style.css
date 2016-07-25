@@ -1,0 +1,682 @@
+/**************************** Navbar ****************************/
+.navbar-default {
+    background-color: #222222;
+    border-color: transparent;
+}
+.navbar-default .navbar-brand {
+    color: #36bffe;
+    font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:active,
+.navbar-default .navbar-brand.active {
+    color: #36bffe;
+}
+.navbar-default .navbar-collapse {
+    border-color: rgba(255, 255, 255, 0.02);
+}
+.navbar-default .navbar-toggle {
+    background-color: #36bffe;
+    border-color: #36bffe;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #36bffe;
+}
+.navbar-default .nav li a {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: white;
+}
+.navbar-default .nav li a:hover,
+.navbar-default .nav li a:focus {
+    color: #36bffe;
+    outline: none;
+}
+.navbar-default .navbar-nav > .active > a {
+    border-radius: 0;
+    color: white;
+    background-color: #36bffe;
+}
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: white;
+    background-color: #36bffe;
+}
+@media (min-width: 768px) {
+    .navbar-default {
+        background-color: #222222;
+        padding: 10px 0;
+        -webkit-transition: padding 0.3s;
+        -moz-transition: padding 0.3s;
+        transition: padding 0.3s;
+        border: none;
+    }
+    .navbar-default .navbar-brand {
+        font-size: 2em;
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        transition: all 0.3s;
+    }
+    .navbar-default .navbar-nav > .active > a {
+        border-radius: 3px;
+    }
+    .navbar-default.navbar-shrink {
+        background-color: #222222;
+        padding: 10px 0;
+    }
+    .navbar-default.navbar-shrink .navbar-brand {
+        font-size: 1.5em;
+    }
+}
+/**************************** Navbar ****************************/
+
+/**************************** Header ****************************/
+.header_default {
+    background: url('../img/header-bg-2.jpg') no-repeat scroll center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    text-align: center;
+    color: white;
+}
+
+.header_default .intro-text {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.header_default .intro-text .intro-lead-in {
+    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: italic;
+    font-size: 22px;
+    line-height: 22px;
+    margin-bottom: 25px;
+}
+.header_default .intro-text .intro-heading {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 50px;
+    margin-bottom: 25px;
+}
+@media (min-width: 768px) {
+    .header_default .intro-text {
+        padding-top: 160px;
+        padding-bottom: 120px;
+    }
+    .header_default .intro-text .intro-lead-in {
+        font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-style: italic;
+        font-size: 40px;
+        line-height: 40px;
+        margin-bottom: 25px;
+    }
+    .header_default .intro-text .intro-heading {
+        font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 75px;
+        line-height: 75px;
+        margin-bottom: 50px;
+    }
+}
+
+.input-padding {
+    padding: 3px 3px;
+}
+
+.center-form {
+    padding-left: 170px;
+}
+/**************************** Header ****************************/
+
+/**************************** Section | Portfolio  ****************************/
+.item-padding {
+    padding: 10px;
+}
+
+
+.portfolio-box {
+    position: relative;
+    display: block;
+    max-width: 650px;
+    margin: 0 auto;
+}
+.portfolio-box .portfolio-box-caption {
+    color: white;
+    opacity: 0;
+    display: block;
+    background: #36bffe;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    -webkit-transition: all 0.35s;
+    -moz-transition: all 0.35s;
+    transition: all 0.35s;
+}
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    padding: 0 15px;
+}
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14px;
+}
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+    font-size: 18px;
+}
+.portfolio-box:hover .portfolio-box-caption {
+    opacity: 1;
+}
+@media (min-width: 768px) {
+    .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
+        font-size: 16px;
+    }
+    .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+        font-size: 22px;
+    }
+}
+/**************************** Section | Portfolio  ****************************/
+
+/**************************** Section | Steps  ****************************/
+.section-heading {
+    float: left;
+    width: 100%;
+    padding-bottom: 20px;
+    margin-bottom: 0;
+    clear: both;
+}
+.section-heading h2 {
+    margin: 0 0 0 0;
+    font-size: 30px;
+    font-weight: 400;
+    color: #333;
+    position: relative;
+    display: block;
+    padding-bottom: 10px;
+    line-height: 1.5;
+    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: italic;
+
+}
+@media screen and (max-width: 768px) {
+    .section-heading h2 {
+        font-size: 28px;
+    }
+}
+.section-heading h3 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #8f989f;
+    position: relative;
+    display: block;
+    padding-bottom: 20px;
+    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: italic;
+}
+.section-heading h3:after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 2px;
+    background: #1fb5f6;
+    left: 50%;
+    margin-left: -25px;
+    bottom: 0;
+}
+@media screen and (max-width: 768px) {
+    .section-heading h3 {
+        font-size: 16px !important;
+        line-height: 28px;
+    }
+}
+
+.section-padding {
+    padding-bottom: 30px;
+}
+
+.service-heading {
+    margin: 15px 0;
+    text-transform: none;
+}
+/**************************** Section | Steps  ****************************/
+
+/**************************** General | Section ****************************/
+section {
+    padding: 100px 0;
+}
+
+@media (min-width: 768px) {
+    section {
+        padding-top: 70px;
+    }
+}
+/**************************** General | Section ****************************/
+
+/**************************** General  ****************************/
+.text-muted {
+    color: #777777;
+}
+
+
+.text-faded {
+    color: #FFFFFF;
+}
+
+.bg-light-gray {
+    background-color: #eeeaf4;
+}
+
+.bg-light-blue {
+    background-color: #cff7f2;
+}
+
+.bg-light-red {
+    background-color: #f73530;
+}
+
+.bg-light-green {
+    background-color: #55f70b;
+}
+/**************************** General  ****************************/
+
+
+/**************************** Section | Testimony  ****************************/
+
+#fh5co-testimony .wrap-testimony {
+    position: relative;
+    width: 100%;
+}
+
+.wrap-testimony img {
+    width:120px;
+    height:120px;
+}
+
+blockquote {
+    padding: 10px 20px;
+    margin: 0 0 20px;
+    font-size: 17px;
+    border-left: 5px solid #aebaba;
+}
+
+/**************************** Section | Testimony  ****************************/
+
+/**************************** Section | FOOTER  ****************************/
+
+#fh5co-footer {
+    background: #3f5267;
+    color: #74889e;
+}
+#fh5co-footer a {
+    color: #74889e;
+}
+#fh5co-footer a:hover {
+    color: #fff !important;
+    text-decoration: underline;
+}
+#fh5co-footer .section-title {
+    font-size: 22px;
+    color: #fff;
+    position: relative;
+    padding-bottom: 20px;
+}
+#fh5co-footer .section-title:after {
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 0;
+    display: block;
+    width: 35px;
+    height: 2px;
+    background: #1fb5f6;
+}
+#fh5co-footer .copy-right {
+    position: relative;
+    padding-top: 20px;
+    margin-top: 40px;
+}
+#fh5co-footer .copy-right > a {
+    color: rgba(255, 255, 255, 0.4);
+}
+#fh5co-footer .copy-right:after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    display: block;
+    width: 35px;
+    height: 2px;
+    background: #1fb5f6;
+}
+#fh5co-footer .contact-info {
+    margin: 0 0 60px 0;
+    padding: 0;
+}
+#fh5co-footer .contact-info li {
+    font-size: 16px;
+    list-style: none;
+    margin: 0 0 20px 0;
+    position: relative;
+    padding-left: 40px;
+}
+#fh5co-footer .contact-info li i {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 22px;
+    color: #1fb5f6;
+}
+#fh5co-footer .social-media {
+    margin: 0 0 30px 0;
+    padding: 0;
+}
+#fh5co-footer .social-media li {
+    display: inline-block;
+    padding: 0;
+    font-size: 24px;
+    margin: 0 10px 0 0;
+}
+#fh5co-footer .social-media li a {
+    color: #1fb5f6;
+}
+#fh5co-footer .social-media li a:hover, #fh5co-footer .social-media li a:focus, #fh5co-footer .social-media li a:active {
+    text-decoration: none;
+}
+#fh5co-footer .contact-form .form-group input[type="name"],
+#fh5co-footer .contact-form .form-group input[type="text"],
+#fh5co-footer .contact-form .form-group input[type="email"],
+#fh5co-footer .contact-form .form-group textarea {
+    font-size: 16px;
+}
+#fh5co-footer .contact-form .form-group input[type="name"]::-webkit-input-placeholder,
+#fh5co-footer .contact-form .form-group input[type="text"]::-webkit-input-placeholder,
+#fh5co-footer .contact-form .form-group input[type="email"]::-webkit-input-placeholder,
+#fh5co-footer .contact-form .form-group textarea::-webkit-input-placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+#fh5co-footer .contact-form .form-group input[type="name"]:-moz-placeholder,
+#fh5co-footer .contact-form .form-group input[type="text"]:-moz-placeholder,
+#fh5co-footer .contact-form .form-group input[type="email"]:-moz-placeholder,
+#fh5co-footer .contact-form .form-group textarea:-moz-placeholder {
+    /* Firefox 18- */
+    color: rgba(255, 255, 255, 0.5);
+}
+#fh5co-footer .contact-form .form-group input[type="name"]::-moz-placeholder,
+#fh5co-footer .contact-form .form-group input[type="text"]::-moz-placeholder,
+#fh5co-footer .contact-form .form-group input[type="email"]::-moz-placeholder,
+#fh5co-footer .contact-form .form-group textarea::-moz-placeholder {
+    /* Firefox 19+ */
+    color: rgba(255, 255, 255, 0.5);
+}
+#fh5co-footer .contact-form .form-group input[type="name"]:-ms-input-placeholder,
+#fh5co-footer .contact-form .form-group input[type="text"]:-ms-input-placeholder,
+#fh5co-footer .contact-form .form-group input[type="email"]:-ms-input-placeholder,
+#fh5co-footer .contact-form .form-group textarea:-ms-input-placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+#fh5co-footer .contact-form .form-group input {
+    color: #fff;
+    /*background: transparent;*/
+    border: none;
+    background: #485b71;
+    box-shadow: none;
+}
+#fh5co-footer .contact-form .form-group textarea {
+    color: #fff;
+    border: none;
+    background: #485b71;
+    box-shadow: none;
+}
+#fh5co-footer #btn-submit {
+    color: rgba(255, 255, 255, 0.9) !important;
+    background: #1fb5f6 !important;
+}
+
+
+/*Custom Botton*/
+.btn-primary .badge {
+    color: #1fb5f6;
+    background-color: #ffffff;
+}
+.btn-xl {
+    color: #ffffff;
+    background-color: #1fb5f6;
+    border-color: #1fb5f6;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 10px 40px;
+}
+.btn-xl:hover,
+.btn-xl:focus,
+.btn-xl:active,
+.btn-xl.active,
+.open .dropdown-toggle.btn-xl {
+    color: #ffffff;
+    background-color: #1ba1dc;
+    border-color: #1ba1dc;
+}
+.btn-xl:active,
+.btn-xl.active,
+.open .dropdown-toggle.btn-xl {
+    background-image: none;
+}
+.btn-xl.disabled,
+.btn-xl[disabled],
+fieldset[disabled] .btn-xl,
+.btn-xl.disabled:hover,
+.btn-xl[disabled]:hover,
+fieldset[disabled] .btn-xl:hover,
+.btn-xl.disabled:focus,
+.btn-xl[disabled]:focus,
+fieldset[disabled] .btn-xl:focus,
+.btn-xl.disabled:active,
+.btn-xl[disabled]:active,
+fieldset[disabled] .btn-xl:active,
+.btn-xl.disabled.active,
+.btn-xl[disabled].active,
+fieldset[disabled] .btn-xl.active {
+    background-color: #1ba1dc;
+    border-color: #1ba1dc;
+}
+.btn-xl .badge {
+    color: #1ba1dc;
+    background-color: #ffffff;
+}
+
+.btn:focus,
+.btn:active,
+.btn.active,
+.btn:active:focus {
+    outline: none;
+}
+
+/**************************** Section | FOOTER  ****************************/
+
+/****** LOGIN MODAL ******/
+.app-modal-window .modal-dialog {
+    width: 350px;
+    position: absolute;
+    top:150px; bottom: 0; left: 0; right: 0;
+    margin: auto
+}
+
+.loginmodal-container {
+    padding: 30px;
+    background-color: #F7F7F7;
+    border-radius: 5px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+}
+
+.loginmodal-container h2 {
+    text-align: center;
+    font-size: 1.8em;
+    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: italic;
+}
+
+.loginmodal-container input[type=submit] {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+    position: relative;
+    border-radius: 5px;
+}
+
+.loginmodal-container input[type=text], input[type=password] {
+    height: 44px;
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 10px;
+    -webkit-appearance: none;
+    background: #fff;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    border-radius: 5px;
+    padding: 0 8px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.loginmodal-container input[type=text]:hover, input[type=password]:hover {
+    border: 1px solid #b9b9b9;
+    border-top: 1px solid #a0a0a0;
+    -moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+    -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+    box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+}
+
+.loginmodal {
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Arial', sans-serif;
+    font-weight: 700;
+    height: 36px;
+    padding: 0 8px;
+    /* border-radius: 3px; */
+    /* -webkit-user-select: none;
+      user-select: none; */
+}
+
+.loginmodal-submit {
+    /* border: 1px solid #3079ed; */
+    border: 0px;
+    color: #fff;
+    text-shadow: 0 1px rgba(0,0,0,0.1);
+    background-color: #1ba1dc;
+    padding: 10px 0px;
+    font-size: 18px;
+    height: 44px;
+    /* background-image: -webkit-gradient(linear, 0 0, 0 100%,   from(#4d90fe), to(#4787ed)); */
+}
+
+.loginmodal-submit:hover {
+    /* border: 1px solid #2f5bb7; */
+    border: 0px;
+    text-shadow: 0 1px rgba(0,0,0,0.3);
+    background-color: #357ae8;
+    /* background-image: -webkit-gradient(linear, 0 0, 0 100%,   from(#4d90fe), to(#357ae8)); */
+}
+
+.loginmodal-container a {
+    text-decoration: none;
+    color: #666;
+    font-weight: 400;
+    text-align: center;
+    display: inline-block;
+    opacity: 0.6;
+    transition: opacity ease 0.5s;
+}
+
+.login-help{
+    font-size: 12px;
+}
+
+
+/**************************** Section | Register  ****************************/
+
+.default_form {
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+.default_form div[class*="col-"].col-center {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.default_form .panel {
+    margin: 20px auto 20px auto;
+    background-color: #fff;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.05);
+    box-shadow: 0 1px 1px rgba(0,0,0,0.05);
+    border-color: #ddd;
+    border-width: 1px;
+    padding: 10px;
+}
+
+.default_form .panel_reg {
+    width: 600px;
+}
+
+.default_form .panel_log {
+    width: 400px;
+}
+
+.default_form .panel_submitProject {
+    width: 1000px;
+}
+
+
+.default_form .panel-heading {
+    background-color: #fff;
+    padding: 10px 15px;
+    border-bottom: 1px solid #ddd;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+}
+.default_form .text-center {
+    text-align: center;
+}
+
+.default_form h2 {
+    margin: 0 0 0 0;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: italic;
+
+}
+
+.default_form .panel-body {
+    padding: 15px;
+}
+/**************************** Section | Register  ****************************/
